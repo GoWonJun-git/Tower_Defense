@@ -1,0 +1,8 @@
+﻿Name,startSpeed,startHealth,gold,isDead,description
+Slime,20,200,15,FALSE,가장 일반적인\n형태의 몬스터.
+TurtleShell,15,300,20,FALSE,보다 높은\n체력을 지닌 몬스터.
+Bat,30,150,20,FALSE,보다 빠른\n속도를 지닌 몬스터.
+Golem,10,1000,30,FALSE,매우 높은\n체력을 지닌 몬스터.
+,,,,,
+Skeleton,5,15,,FALSE,평범한 능력치를\n지닌 몬스터.
+Orc,5,20,,FALSE,보다 강한 능력치를\n지닌 몬스터.
