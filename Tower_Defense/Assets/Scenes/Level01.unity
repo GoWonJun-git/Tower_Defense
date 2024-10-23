@@ -7532,6 +7532,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneFader
       objectReference: {fileID: 0}
+    - target: {fileID: 4553625225331472698, guid: 5c056c19dbf51734d8dc935834c7ef8f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553625225442973168, guid: 5c056c19dbf51734d8dc935834c7ef8f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c056c19dbf51734d8dc935834c7ef8f, type: 3}
 --- !u!114 &1777126618 stripped
@@ -9387,6 +9397,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OverlayCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2558859378898001871, guid: 180142eb30a523f4bb1d3337f0cde3f3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2558859379823544014, guid: 180142eb30a523f4bb1d3337f0cde3f3,
         type: 3}

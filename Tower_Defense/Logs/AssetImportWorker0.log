@@ -1,126 +1,126 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19044.1415; Version 2009; 64bit' Language: 'ko' Physical Memory: 32650 MB
+OS: 'Windows 10 Pro; OS build 22631.4037; Version 2009; 64bit' Language: 'ko' Physical Memory: 31962 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/User/Unity/Tower_Defense
+D:/Project/MY/Tower_Defense/Tower_Defense
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-3827
-Successfully changed project path to: D:/User/Unity/Tower_Defense
-D:/User/Unity/Tower_Defense
+51167
+Successfully changed project path to: D:/Project/MY/Tower_Defense/Tower_Defense
+D:/Project/MY/Tower_Defense/Tower_Defense
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 62.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 32.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
-[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/User/Unity/Tower_Defense/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Project/MY/Tower_Defense/Tower_Defense/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce 930MX (ID=0x134e)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
     Vendor:   
-    VRAM:     2010 MB
-    Driver:   27.21.14.6151
+    VRAM:     7957 MB
+    Driver:   31.0.15.5212
 Initialize mono
-Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001705 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000816 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 59.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.655 seconds
+- Completed reload, in  1.087 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2655ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (1087ms)
+		BeginReloadAssembly (31ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (550ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (238ms)
+			LoadAssemblies (30ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
+			SetupTypeCache (72ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (204ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (105ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (93ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (45ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004343 seconds.
+Registered in 0.001467 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.268 seconds
+- Completed reload, in  0.566 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1269ms)
-		BeginReloadAssembly (178ms)
+	ReloadAssembly (567ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1028ms)
-			LoadAssemblies (126ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (459ms)
+			LoadAssemblies (44ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (451ms)
+			SetupTypeCache (126ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (214ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (346ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (2ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.5 MB.
-System memory in use after: 169.6 MB.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.9 MB.
+System memory in use after: 97.9 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2538.
-Total: 3.037900 ms (FindLiveObjects: 0.229300 ms CreateObjectMapping: 0.103300 ms MarkObjects: 2.570600 ms  DeleteObjects: 0.133200 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2512.
+Total: 1.884600 ms (FindLiveObjects: 0.167100 ms CreateObjectMapping: 0.027700 ms MarkObjects: 1.601500 ms  DeleteObjects: 0.087600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -129,6 +129,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -136,255 +137,333 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Scenes/Level01.unity
   artifactKey: Guid(c754fe9786862504fa2ab3dee89aaf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level01.unity using Guid(c754fe9786862504fa2ab3dee89aaf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c5fae8a5a6a81fd7564d64bd0848a4') in 0.032318 seconds 
-  Import took 0.036931 seconds .
+Start importing Assets/Scenes/Level01.unity using Guid(c754fe9786862504fa2ab3dee89aaf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c256ea8755c7dedc5c895e1a88e0d05') in 0.008410 seconds 
+  Import took 0.010400 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.4 MB.
+System memory in use after: 53.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2512.
+Total: 1.882400 ms (FindLiveObjects: 0.158800 ms CreateObjectMapping: 0.024000 ms MarkObjects: 1.651500 ms  DeleteObjects: 0.047500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 42.623658 seconds.
+  path: Assets/Scripts/Turret/Skill.cs
+  artifactKey: Guid(06ca79c1e5307c84cb6bc4f341f70f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Turret/Skill.cs using Guid(06ca79c1e5307c84cb6bc4f341f70f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5662c431a1e1c593cc2ab0207de6e9c') in 0.016173 seconds 
+  Import took 0.018774 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 232.669694 seconds.
-  path: Assets/Scenes/Level03/Lightmap-0_comp_dir.png
-  artifactKey: Guid(058ebefe71156f444895fce3bfb5a31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-0_comp_dir.png using Guid(058ebefe71156f444895fce3bfb5a31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854a156ea82faa4609c38d2a22efe856') in 0.270035 seconds 
-  Import took 0.274298 seconds .
+  Time since last request: 54.895354 seconds.
+  path: Assets/Scripts/Turret/Turret.cs
+  artifactKey: Guid(ea62afb61e29fe1428757b365068d94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Turret/Turret.cs using Guid(ea62afb61e29fe1428757b365068d94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3aef754d7a178d7a106b5b16bd9bf3f') in 0.006936 seconds 
+  Import took 0.009503 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/Scenes/Level03/Lightmap-0_comp_light.exr
-  artifactKey: Guid(88b00c8808a3560458777c374292dd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-0_comp_light.exr using Guid(88b00c8808a3560458777c374292dd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139692770f002f95f59f5a6a5ead8594') in 0.139023 seconds 
-  Import took 0.142511 seconds .
+  Time since last request: 43.394672 seconds.
+  path: Assets/Resources/Tower
+  artifactKey: Guid(071d3abf13225c34098659093b7f9cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower using Guid(071d3abf13225c34098659093b7f9cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21b29a5c5117d3c184c6c3dbe0aec8b') in 0.006961 seconds 
+  Import took 0.009239 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.111320 seconds.
-  path: Assets/Scenes/Level03/Lightmap-0_comp_shadowmask.png
-  artifactKey: Guid(9c17abbfedb578548be46443f6668b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-0_comp_shadowmask.png using Guid(9c17abbfedb578548be46443f6668b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f41f8509950d93dae6edc4fdcfa4bf') in 0.139588 seconds 
-  Import took 0.155141 seconds .
+  Time since last request: 3.094531 seconds.
+  path: Assets/Resources/Tower/Turret
+  artifactKey: Guid(56c86ee922855ed48a83d2b098b0e0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Turret using Guid(56c86ee922855ed48a83d2b098b0e0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a45a0dfd7998fffde38aebb5926fbf') in 0.001299 seconds 
+  Import took 0.003541 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.997839 seconds.
-  path: Assets/Scenes/Level03/Lightmap-1_comp_dir.png
-  artifactKey: Guid(b415ac5cffb46214fa09878404dcc390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-1_comp_dir.png using Guid(b415ac5cffb46214fa09878404dcc390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28bf93986fe7e3bfa3e35fde15a1f8a') in 0.091665 seconds 
-  Import took 0.095387 seconds .
+  Time since last request: 0.058655 seconds.
+  path: Assets/Resources/Tower/Turret/Attack_Effect.prefab
+  artifactKey: Guid(bf0653db3c7ecdd478d4ff0b83afff92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Turret/Attack_Effect.prefab using Guid(bf0653db3c7ecdd478d4ff0b83afff92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143f2118f0af389757787b50f10bacd2') in 0.094123 seconds 
+  Import took 0.096641 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Scenes/Level03/Lightmap-1_comp_light.exr
-  artifactKey: Guid(af2d8a5e67d87b94990c672557058f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-1_comp_light.exr using Guid(af2d8a5e67d87b94990c672557058f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8768bef814e255188a1f69a2e4f64b1') in 0.096833 seconds 
-  Import took 0.100322 seconds .
+  Time since last request: 0.000148 seconds.
+  path: Assets/Resources/Tower/Turret/Bullet_HitEffect.prefab
+  artifactKey: Guid(69d8b3c635fd77c47b6dec8554dfdaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Turret/Bullet_HitEffect.prefab using Guid(69d8b3c635fd77c47b6dec8554dfdaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcda1b12d28f18d46e23e9678cb1d264') in 0.009587 seconds 
+  Import took 0.011825 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.152921 seconds.
-  path: Assets/Scenes/Level03/Lightmap-1_comp_shadowmask.png
-  artifactKey: Guid(45522af689b911649997ec92e4c6eed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-1_comp_shadowmask.png using Guid(45522af689b911649997ec92e4c6eed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3927bf918db87485ab7580fb547b4db') in 0.237111 seconds 
-  Import took 0.240609 seconds .
+  Time since last request: 0.000117 seconds.
+  path: Assets/Resources/Tower/Turret/MachineGun_Level_3.prefab
+  artifactKey: Guid(bc16b072c1bdf324cb349429d9abbf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Turret/MachineGun_Level_3.prefab using Guid(bc16b072c1bdf324cb349429d9abbf64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb474545e08846fb663dd642ad071db1') in 0.021259 seconds 
+  Import took 0.023663 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001014 seconds.
-  path: Assets/Scenes/Level03/Lightmap-1_comp_shadowmask.png
-  artifactKey: Guid(45522af689b911649997ec92e4c6eed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-1_comp_shadowmask.png using Guid(45522af689b911649997ec92e4c6eed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3927bf918db87485ab7580fb547b4db') in 0.015117 seconds 
-  Import took 0.018690 seconds .
+  Time since last request: 0.000148 seconds.
+  path: Assets/Resources/Tower/Turret/Bullet_Level_1.prefab
+  artifactKey: Guid(118022d68c56d234c9dfd491fa16c052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Turret/Bullet_Level_1.prefab using Guid(118022d68c56d234c9dfd491fa16c052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5400f172f282d0b884c269d87f1b6b66') in 0.010215 seconds 
+  Import took 0.012673 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.317263 seconds.
-  path: Assets/Scenes/Level03/Lightmap-2_comp_dir.png
-  artifactKey: Guid(d84f828ade23adb4e8bab3a6e0e14ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-2_comp_dir.png using Guid(d84f828ade23adb4e8bab3a6e0e14ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89ebd1fa5b991ad1db3e35ca68aab83') in 0.197624 seconds 
-  Import took 0.201788 seconds .
+  Time since last request: 0.000143 seconds.
+  path: Assets/Resources/Tower/Turret/MachineGun_Level_1.prefab
+  artifactKey: Guid(ea0e7422cc2ca4c49a1506fb300f78f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Turret/MachineGun_Level_1.prefab using Guid(ea0e7422cc2ca4c49a1506fb300f78f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af7e6738dc85fa63b7dd89eb47b1102') in 0.014774 seconds 
+  Import took 0.017133 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/Scenes/Level03/Lightmap-2_comp_light.exr
-  artifactKey: Guid(81d1eab69e1548f43aa23b0738559944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-2_comp_light.exr using Guid(81d1eab69e1548f43aa23b0738559944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367436125d60c1b2b34c56888903bcb3') in 0.066355 seconds 
-  Import took 0.069577 seconds .
+  Time since last request: 0.000146 seconds.
+  path: Assets/Resources/Tower/Turret/Bullet_Level_1.prefab
+  artifactKey: Guid(118022d68c56d234c9dfd491fa16c052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Turret/Bullet_Level_1.prefab using Guid(118022d68c56d234c9dfd491fa16c052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5400f172f282d0b884c269d87f1b6b66') in 0.005728 seconds 
+  Import took 0.007934 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.694262 seconds.
-  path: Assets/Scenes/Level03/Lightmap-2_comp_shadowmask.png
-  artifactKey: Guid(b14d689b27bc7524c8c0cb1da416dbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-2_comp_shadowmask.png using Guid(b14d689b27bc7524c8c0cb1da416dbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db8d9d9961abb163b2b077dad39e6a6') in 0.198405 seconds 
-  Import took 0.202148 seconds .
+  Time since last request: 0.000138 seconds.
+  path: Assets/Resources/Tower/Turret/MachineGun_Level_2.prefab
+  artifactKey: Guid(e93b4a6397d33674d972713c074e1ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Turret/MachineGun_Level_2.prefab using Guid(e93b4a6397d33674d972713c074e1ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcec2f44e0d4b388f958563143318bda') in 0.019181 seconds 
+  Import took 0.021452 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Scenes/Level03/Lightmap-3_comp_dir.png
-  artifactKey: Guid(24854b000dcfa654ba59c18fe319645c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-3_comp_dir.png using Guid(24854b000dcfa654ba59c18fe319645c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c23f1fc3ea01915d66f38af71b0bf4') in 0.067637 seconds 
-  Import took 0.070831 seconds .
+  Time since last request: 0.000152 seconds.
+  path: Assets/Resources/Tower/Turret/Bullet_Level_2.prefab
+  artifactKey: Guid(06a31e6e9a44b8b48b1f71abf48cb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Turret/Bullet_Level_2.prefab using Guid(06a31e6e9a44b8b48b1f71abf48cb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3482c7e555a8f02ce9447a2c33b317e') in 0.013322 seconds 
+  Import took 0.015765 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003248 seconds.
-  path: Assets/Scenes/Level03/Lightmap-3_comp_dir.png
-  artifactKey: Guid(24854b000dcfa654ba59c18fe319645c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-3_comp_dir.png using Guid(24854b000dcfa654ba59c18fe319645c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c23f1fc3ea01915d66f38af71b0bf4') in 0.021199 seconds 
-  Import took 0.024823 seconds .
+  Time since last request: 0.000131 seconds.
+  path: Assets/Resources/Tower/Turret/Bullet_Level_3.prefab
+  artifactKey: Guid(6d9185b6033937241bf514441cfd4be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Turret/Bullet_Level_3.prefab using Guid(6d9185b6033937241bf514441cfd4be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5df961c9c12cf3b6a3d4f03f24a61e') in 0.009352 seconds 
+  Import took 0.011728 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.037205 seconds.
-  path: Assets/Scenes/Level03/Lightmap-3_comp_light.exr
-  artifactKey: Guid(6e49d8df67c53454498a7b758e79c45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-3_comp_light.exr using Guid(6e49d8df67c53454498a7b758e79c45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3554bf7052c81f68f1ac4787e142776') in 0.125880 seconds 
-  Import took 0.130060 seconds .
+  Time since last request: 0.000672 seconds.
+  path: Assets/Resources/Tower/Turret/Bullet_Level_3.prefab
+  artifactKey: Guid(6d9185b6033937241bf514441cfd4be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Turret/Bullet_Level_3.prefab using Guid(6d9185b6033937241bf514441cfd4be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5df961c9c12cf3b6a3d4f03f24a61e') in 0.008168 seconds 
+  Import took 0.010758 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.322656 seconds.
-  path: Assets/Scenes/Level03/Lightmap-3_comp_shadowmask.png
-  artifactKey: Guid(3b9cb97708c14a744a57cacc6db525b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-3_comp_shadowmask.png using Guid(3b9cb97708c14a744a57cacc6db525b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb78604a23adf72edbba84d250bc415') in 0.167977 seconds 
-  Import took 0.171359 seconds .
+  Time since last request: 25.935571 seconds.
+  path: Assets/Resources/Tower/Skill/Explosion.prefab
+  artifactKey: Guid(deeb9285533d5894ea5990f39165939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Skill/Explosion.prefab using Guid(deeb9285533d5894ea5990f39165939a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e8e94cf62fe416e3ceecbedf8a6916') in 0.011436 seconds 
+  Import took 0.014295 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Scenes/Level03/Lightmap-4_comp_dir.png
-  artifactKey: Guid(91c7837a359c42448804137252ec7167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-4_comp_dir.png using Guid(91c7837a359c42448804137252ec7167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759ad28a95e4affe39f4cab776b4b069') in 0.092621 seconds 
-  Import took 0.095894 seconds .
+  Time since last request: 0.000141 seconds.
+  path: Assets/Resources/Tower/Skill/Freezing.prefab
+  artifactKey: Guid(54521cdeb707c2e4f90a36d6a932e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Skill/Freezing.prefab using Guid(54521cdeb707c2e4f90a36d6a932e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba08d55d85d2dad318b1b0408151c150') in 0.124623 seconds 
+  Import took 0.127055 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.846357 seconds.
-  path: Assets/Scenes/Level03/Lightmap-4_comp_light.exr
-  artifactKey: Guid(9bfc664c94472ef44ac9803e2934d6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-4_comp_light.exr using Guid(9bfc664c94472ef44ac9803e2934d6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07a8a1e8ee8e993e07fd2e94bee7d2e') in 0.123373 seconds 
-  Import took 0.126786 seconds .
+  Time since last request: 3.793655 seconds.
+  path: Assets/Resources/Tower/Laser
+  artifactKey: Guid(0f92b00d14c581843bbc47d49577574e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Laser using Guid(0f92b00d14c581843bbc47d49577574e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a91030d247a4ff10c0e5bdf6ab42d49') in 0.005391 seconds 
+  Import took 0.008195 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.494901 seconds.
-  path: Assets/Scenes/Level03/Lightmap-4_comp_shadowmask.png
-  artifactKey: Guid(274075cf6d5ab9144aa9d39ade96fe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-4_comp_shadowmask.png using Guid(274075cf6d5ab9144aa9d39ade96fe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c8186719f97da1ed24dea4b34bc0b9') in 0.131168 seconds 
-  Import took 0.134684 seconds .
+  Time since last request: 0.000125 seconds.
+  path: Assets/Resources/Tower/Laser/Laser_Attack_Effect.prefab
+  artifactKey: Guid(e86dc9673ec64744d8f46b99ccb7028b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Laser/Laser_Attack_Effect.prefab using Guid(e86dc9673ec64744d8f46b99ccb7028b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f91a64c683a6249d2a718d9c362005c') in 0.010246 seconds 
+  Import took 0.012913 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Scenes/Level03/Lightmap-5_comp_dir.png
-  artifactKey: Guid(abd55838adbf19a409082704cd0ffaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-5_comp_dir.png using Guid(abd55838adbf19a409082704cd0ffaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f10a832109177d5430e0622efba0e1f') in 0.073889 seconds 
-  Import took 0.082551 seconds .
+  Time since last request: 0.000142 seconds.
+  path: Assets/Resources/Tower/Laser/Laser_Level_3.prefab
+  artifactKey: Guid(7c73ec2ac3a4c114b8b22e589b661f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Laser/Laser_Level_3.prefab using Guid(7c73ec2ac3a4c114b8b22e589b661f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbd3f700b5b453962c7814b6f6a753f') in 0.023208 seconds 
+  Import took 0.025892 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Scenes/Level03/Lightmap-4_comp_shadowmask.png
-  artifactKey: Guid(274075cf6d5ab9144aa9d39ade96fe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-4_comp_shadowmask.png using Guid(274075cf6d5ab9144aa9d39ade96fe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c8186719f97da1ed24dea4b34bc0b9') in 0.013597 seconds 
-  Import took 0.016732 seconds .
+  Time since last request: 0.000161 seconds.
+  path: Assets/Resources/Tower/Laser/Laser_Level_1.prefab
+  artifactKey: Guid(3a15c0ecf8158be468b5d7a3d502b195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Laser/Laser_Level_1.prefab using Guid(3a15c0ecf8158be468b5d7a3d502b195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6155d46ade9eb4fefba7985a3727b3b9') in 0.014938 seconds 
+  Import took 0.017501 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.276768 seconds.
-  path: Assets/Scenes/Level03/Lightmap-5_comp_light.exr
-  artifactKey: Guid(44c128325fad15e499d07a70e6a98eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-5_comp_light.exr using Guid(44c128325fad15e499d07a70e6a98eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f0f59dd5076f2b461c1f6d63d43ffa') in 0.192288 seconds 
-  Import took 0.195965 seconds .
+  Time since last request: 0.000140 seconds.
+  path: Assets/Resources/Tower/Laser/LevelButton.prefab
+  artifactKey: Guid(e00215639c5234d4ea529e16e1c19f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Laser/LevelButton.prefab using Guid(e00215639c5234d4ea529e16e1c19f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4105aab9b9fc4c3d390f8bd7d0896f') in 0.009996 seconds 
+  Import took 0.012462 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Scenes/Level03/Lightmap-5_comp_shadowmask.png
-  artifactKey: Guid(26d2daab1c8c81c4f869fd44258f1a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-5_comp_shadowmask.png using Guid(26d2daab1c8c81c4f869fd44258f1a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fead7994bc4d10ff530ac7caad09044') in 0.112039 seconds 
-  Import took 0.115162 seconds .
+  Time since last request: 0.000204 seconds.
+  path: Assets/Resources/Tower/Laser/Light.prefab
+  artifactKey: Guid(a162344feec76cd4d83e57434e954bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Laser/Light.prefab using Guid(a162344feec76cd4d83e57434e954bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8d86d6d5ee7c922bda68155ff04bbb') in 0.006785 seconds 
+  Import took 0.008775 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.361758 seconds.
-  path: Assets/Scenes/Level03/Lightmap-6_comp_dir.png
-  artifactKey: Guid(4a8e242f4722ce54da12069a97e34f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-6_comp_dir.png using Guid(4a8e242f4722ce54da12069a97e34f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ce89cb9cd684cf0ee2b2760785f67a') in 0.119627 seconds 
-  Import took 0.123245 seconds .
+  Time since last request: 0.000137 seconds.
+  path: Assets/Resources/Tower/Laser/Laser_Level_2.prefab
+  artifactKey: Guid(42447d92088665147abb329de580ac77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tower/Laser/Laser_Level_2.prefab using Guid(42447d92088665147abb329de580ac77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bf29c70182b661d9d140fd8cd69c60') in 0.017071 seconds 
+  Import took 0.019436 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Scenes/Level03/Lightmap-6_comp_light.exr
-  artifactKey: Guid(5104ae6b5170c8f4db0a55527b5ad0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-6_comp_light.exr using Guid(5104ae6b5170c8f4db0a55527b5ad0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4a8a052fe8e5955237f83005daec01') in 0.084380 seconds 
-  Import took 0.087739 seconds .
+  Time since last request: 33.306935 seconds.
+  path: Assets/Resources/UI/BuildEffect.prefab
+  artifactKey: Guid(d4c0b3cfc0cec154cb4bad499ae3201b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/BuildEffect.prefab using Guid(d4c0b3cfc0cec154cb4bad499ae3201b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ad1edf0e180cd3e34492f3f03c3e1c') in 0.007497 seconds 
+  Import took 0.010090 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Scenes/Level03/Lightmap-6_comp_shadowmask.png
-  artifactKey: Guid(93a706b191279f941b9578b685cbe4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-6_comp_shadowmask.png using Guid(93a706b191279f941b9578b685cbe4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77a51cc7af3b5d42b85e23313f56866') in 0.083577 seconds 
-  Import took 0.098973 seconds .
+  Time since last request: 0.000117 seconds.
+  path: Assets/Resources/UI/CompleteLevel.prefab
+  artifactKey: Guid(515909b2a2e79cb4fbf0941e307926eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/CompleteLevel.prefab using Guid(515909b2a2e79cb4fbf0941e307926eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e348c552c11cf44097a2b6d044f47ad8') in 0.012073 seconds 
+  Import took 0.014157 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Scenes/Level03/Lightmap-6_comp_dir.png
-  artifactKey: Guid(4a8e242f4722ce54da12069a97e34f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/Lightmap-6_comp_dir.png using Guid(4a8e242f4722ce54da12069a97e34f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ce89cb9cd684cf0ee2b2760785f67a') in 0.022675 seconds 
-  Import took 0.026007 seconds .
+  Time since last request: 0.000137 seconds.
+  path: Assets/Resources/UI/ShopLaserBeamerItem.prefab
+  artifactKey: Guid(a36147b7079af3240bc459a32e89a22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/ShopLaserBeamerItem.prefab using Guid(a36147b7079af3240bc459a32e89a22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b265ab28b9fd7eccc2cdcc5dddb832') in 0.006773 seconds 
+  Import took 0.008936 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.643102 seconds.
-  path: Assets/Scenes/Level03/ReflectionProbe-0.exr
-  artifactKey: Guid(be21ab18ece7ad54d81e1c686226b432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03/ReflectionProbe-0.exr using Guid(be21ab18ece7ad54d81e1c686226b432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6add2d76483afe135d4384a1d492225') in 0.074592 seconds 
-  Import took 0.078109 seconds .
+  Time since last request: 0.000128 seconds.
+  path: Assets/Resources/UI/SceneFader.prefab
+  artifactKey: Guid(5c056c19dbf51734d8dc935834c7ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/SceneFader.prefab using Guid(5c056c19dbf51734d8dc935834c7ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813f565eccca0c28dc4298c08b712daa') in 0.037533 seconds 
+  Import took 0.039476 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 158.188103 seconds.
-  path: Assets/Resources/Material/BuildEffect.mat
-  artifactKey: Guid(e4ba118653eac324b93523212d1a93c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Material/BuildEffect.mat using Guid(e4ba118653eac324b93523212d1a93c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf663e2aa0cec188707195f72b961dd') in 0.085209 seconds 
-  Import took 0.088767 seconds .
+  Time since last request: 0.000140 seconds.
+  path: Assets/Resources/UI/OverlayCanvas_FPS.prefab
+  artifactKey: Guid(cde5af73f0c9f3d4f83dbc8b96a9aaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/OverlayCanvas_FPS.prefab using Guid(cde5af73f0c9f3d4f83dbc8b96a9aaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b939a06d0a30de5feb13925a02a2a72d') in 0.012862 seconds 
+  Import took 0.015226 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 86.446756 seconds.
-  path: Assets/Scenes/Level03.unity
-  artifactKey: Guid(1d9bba9901adec143a46742c8c9d1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03.unity using Guid(1d9bba9901adec143a46742c8c9d1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4db6ff409345f3b47be9daac548a60') in 0.002878 seconds 
-  Import took 0.006440 seconds .
+  Time since last request: 0.000127 seconds.
+  path: Assets/Resources/UI/OverlayCanvas.prefab
+  artifactKey: Guid(180142eb30a523f4bb1d3337f0cde3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/OverlayCanvas.prefab using Guid(180142eb30a523f4bb1d3337f0cde3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd5424850c82a6c0bd3c61f6f04f98d') in 0.015289 seconds 
+  Import took 0.018451 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.452968 seconds.
-  path: Assets/Scenes/Level01.unity
-  artifactKey: Guid(c754fe9786862504fa2ab3dee89aaf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level01.unity using Guid(c754fe9786862504fa2ab3dee89aaf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e84ebd4ec84a7153937a0822d9730f') in 0.002289 seconds 
-  Import took 0.006005 seconds .
+  Time since last request: 0.000137 seconds.
+  path: Assets/Resources/UI/LevelButton.prefab
+  artifactKey: Guid(636fdf39693f98447a107914543a7407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/LevelButton.prefab using Guid(636fdf39693f98447a107914543a7407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81e9dfef5db58839ddd54e4a9ad04ca') in 0.003102 seconds 
+  Import took 0.004613 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.634108 seconds.
-  path: Assets/Scenes/Level02.unity
-  artifactKey: Guid(d129664f0546ea441a17a9522adf5e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level02.unity using Guid(d129664f0546ea441a17a9522adf5e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb1adb703576470d1c7578e2cdc4d72') in 0.002382 seconds 
-  Import took 0.005950 seconds .
+  Time since last request: 0.000108 seconds.
+  path: Assets/Resources/UI/ShopTurretItem.prefab
+  artifactKey: Guid(641f34a8b3a650b4283a5918fcd3bced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/ShopTurretItem.prefab using Guid(641f34a8b3a650b4283a5918fcd3bced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ffc9c9b6ef3d3e6af5e122ca64d88b') in 0.006952 seconds 
+  Import took 0.008926 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.984350 seconds.
-  path: Assets/Scenes/Level03.unity
-  artifactKey: Guid(1d9bba9901adec143a46742c8c9d1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level03.unity using Guid(1d9bba9901adec143a46742c8c9d1f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487d84b9b4577819ba95d0fb9d0c071c') in 0.002456 seconds 
-  Import took 0.005868 seconds .
+  Time since last request: 0.000127 seconds.
+  path: Assets/Resources/UI/GameMaster_Level_3.prefab
+  artifactKey: Guid(85acad3afb926d14eaebc1938acb00cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/GameMaster_Level_3.prefab using Guid(85acad3afb926d14eaebc1938acb00cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6967ded4c96a97aaa88ae2b7ca1f2d2a') in 0.006841 seconds 
+  Import took 0.009114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Resources/UI/GameMaster_Level_1.prefab
+  artifactKey: Guid(d0aa721a212257449a46663c8b6e85a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/GameMaster_Level_1.prefab using Guid(d0aa721a212257449a46663c8b6e85a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e9c9daf56f40659610c0aaeab68293') in 0.009317 seconds 
+  Import took 0.011645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Resources/UI/GameMaster_Level_2.prefab
+  artifactKey: Guid(e81f3b9745a11d6418302ae63a0e5da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/GameMaster_Level_2.prefab using Guid(e81f3b9745a11d6418302ae63a0e5da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a65473bc12e01f8b21723d7cdb5add') in 0.006433 seconds 
+  Import took 0.008497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Resources/UI/GameMaster_Level_4.prefab
+  artifactKey: Guid(8cf986c8f0706bf479396dfcf5558969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/GameMaster_Level_4.prefab using Guid(8cf986c8f0706bf479396dfcf5558969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af71606332584feb1e4ba46510cf5dea') in 0.006894 seconds 
+  Import took 0.009232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Resources/UI/ShopMissileLauncherItem.prefab
+  artifactKey: Guid(58635a8ff63a7d04cbb164b2b68078e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/ShopMissileLauncherItem.prefab using Guid(58635a8ff63a7d04cbb164b2b68078e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b8fe6d57e2febca3d81b1e36bfb9da') in 0.007273 seconds 
+  Import took 0.009497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Resources/UI/SellEffect.prefab
+  artifactKey: Guid(04ca90c0ffc51cb4abfa545a51293b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/SellEffect.prefab using Guid(04ca90c0ffc51cb4abfa545a51293b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ae088a12ee00281c94cd78e81dbfba') in 0.009681 seconds 
+  Import took 0.012050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Resources/UI/MenuTurret.prefab
+  artifactKey: Guid(e2949bdda3018ef448b458679950d3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UI/MenuTurret.prefab using Guid(e2949bdda3018ef448b458679950d3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdd758281f21fedbf2ed80b7488206d') in 0.017279 seconds 
+  Import took 0.019703 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
